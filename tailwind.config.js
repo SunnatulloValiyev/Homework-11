@@ -5,6 +5,10 @@ module.exports = {
       backgroundImage: {
         work: "url('/image/work.png')", 
       },
+
+      screens: {
+        'custom': '1200px',
+      },
     },
   },
   plugins: [],

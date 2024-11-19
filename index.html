@@ -1,44 +1,45 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/output.css">
-        <title>11-vazifa</title>
-    </head>
-    <body class=""> 
-        <div class="container max-w-[1600px] mx-auto">
-            <header class="flex items-center py-6 mx-auto justify-evenly">
-                <div class="logo">
-                    <a href="#">
-                        <img src="icons/ringo.svg" alt="ringo">
-                    </a>
-                </div>
-                <nav class="navbar">
-                    <ul class="flex gap-11">
-                        <li><a href="#" class="transition duration-500 hover:text-green-900">Напрямки</a></li>
-                        <li><a href="#" class="transition duration-500 hover:text-green-900">Про компанію</a></li>
-                        <li><a href="#" class="transition duration-500 hover:text-green-900">Переваги</a></li>
-                        <li><a href="#" class="transition duration-500 hover:text-green-900">Етапи роботи</a></li>
-                    </ul>
-                </nav>
-                <div> 
-                    <a href="#" class="flex gap-4">
-                        <img src="icons/insta.svg" alt="insta">
-                        <img src="icons/facebook.svg" alt="facebook">
-                    </a>
-                </div>
-                <div>
-                    <span class="flex gap-3">
-                        <img src="icons/phone.svg" alt="phone">
-                        +380 67661 5415
-                    </span>
-                </div>
-            </header>  
-        </div>
-        <!-- style="background: url('../image/work.png') no-repeat center center; background-size: cover; height: 100vh;" -->
-        <div class="max-w-full mx-auto" style="background: url('../image/work.png') no-repeat center center; background-size: cover; height: 100vh;">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/output.css">
+    <title>11-vazifa</title>
+</head>
+
+<body>
+    <div class="mx-auto max-container">
+        <header class="container flex items-center py-6 mx-auto justify-evenly">
+            <div class="logo">
+                <a href="#">
+                    <img src="icons/ringo.svg" alt="ringo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="flex gap-11">
+                    <li><a href="#" class="transition duration-500 hover:text-green-900">Напрямки</a></li>
+                    <li><a href="#" class="transition duration-500 hover:text-green-900">Про компанію</a></li>
+                    <li><a href="#" class="transition duration-500 hover:text-green-900">Переваги</a></li>
+                    <li><a href="#" class="transition duration-500 hover:text-green-900">Етапи роботи</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#" class="flex gap-4">
+                    <img src="icons/insta.svg" alt="insta">
+                    <img src="icons/facebook.svg" alt="facebook">
+                </a>
+            </div>
+            <div>
+                <span class="flex gap-3">
+                    <img src="icons/phone.svg" alt="phone">
+                    +380 67661 5415
+                </span>
+            </div>
+        </header>
+
+        <div class="" style="background: url('../image/work.png') no-repeat center center; background-size: cover; height: 100vh;">
             <div>
                 <h1 class="pt-40 text-center text-white text-7xl">виробництво <br> меблів</h1>
                 <p class="pt-10 mx-auto text-center text-white">
@@ -47,11 +48,16 @@
                     власного виробництва забезпечимо якісним меблевим продуктом .
                   </p>
 
-                  <button class="w-[155px] h-[58px] bg-[#AE7B3C]">Обговорити проект</button>
+                  <div class="flex justify-center pt-6">
+                    <button class="p-4 px-10 text-white bg-yellow-500">Обговорити проект</button>
+                  </div>  
+                  
+                  <div class="container pl-32 mx-auto pt-72 ">
+                    <img src="image/line.png" alt="line">
+                  </div>
             </div>
-        </div> 
-        
-        <div class="container p-10 max-w-[1200px] mx-auto">
+        </div>
+        <div class="container p-24 max-w-[1200px] mx-auto">
             <h2 class="text-5xl font-medium text-center">Основні напрямки</h2>
 
             <div class="flex mx-auto justify-evenly mt-14">
@@ -74,8 +80,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="mx-auto mt-16 mb-10 bg-green-800">
+        
+        <div class="mx-auto mt-16 mb-10 bg-green-800 ">
             <h2 class="pt-10 text-5xl font-semibold text-center uppercase">Ми забезпечемо вас</h2>
                 <div class="container flex items-center justify-around mx-auto mt-8">
                     <div class="flex flex-col items-center">
@@ -111,38 +117,92 @@
                     </div>
                 </div>      
         </div>
-
-        <div class="container mx-auto">
-            <div class="flex items-center gap-10 pr-6">
-                <img class="pl-14 pt-14" src="image/Rectangl.png" alt="rectangle">
-                <h3 class="max-w-4xl text-4xl font-semibold text-center">
-                    Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень.
-                </h3>
+        
+        <div class="relative flex justify-evenly">
+            <div class="flex justify-center">
+                <img src="image/Rectangl.png" alt="rectangle">
+                <h3 class="max-w-4xl text-4xl font-semibold text-center">Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. </h3>
             </div>
+
+        <div class="absolute mx-auto top-24 left-3/4 ">
+            <img src="image/Rectangle5.png" alt="rectangle">
+        </div>
+        </div>
+        <div class="container mx-auto ">
+            <img src="image/Line2.png" alt="line" class="mx-auto">
+            
+            <div class="flex items-center pt-2 px-96 justify-evenly">
+            <p class="w-80">Наш колектив націлений на результат - вчасно реалізувати проект 
+                на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі</p>
+            
+            <img src="image/Line10.png" alt="line10">
+                
+            <p class="w-80">Наш колектив націлений на результат - вчасно реалізувати проект 
+                на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі</p>
+
+            </div>  
+            <img class="pt-4 mx-auto" src="image/Line9.png" alt="line9">
         </div>
 
-        <div class="container mx-auto my-5">
-            <div class="row">
-                <!-- Chap tomondagi matn bloki -->
-                <div class="mb-4 col-md-6">
-                    <div class="p-3 border border-2 rounded border-danger">
-                        <span class="badge bg-warning text-dark">•</span>
-                        <p class="m-0">
-                            Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі
-                        </p>
+        <div class="relative w-full h-screen mt-20 text-center">
+            <h2 class="text-5xl uppercase">Наші переваги</h2>
+            
+            <div class="mt-20 conteiner">
+                <div class="mx-auto border-t-2 max-w-7xl">
+                    <div class="flex items-center justify-between pt-10 pb-10">
+                        <h5>01</h5>
+                        <div>
+                        <h3 class="text-3xl text-left">Мобільність</h3>
+                        <span>Проводимо зустрічі на об`єктах в затишних закладах Києва</span>
+                        </div>
                     </div>
                 </div>
-                <!-- O'ng tomondagi matn bloki -->
-                <div class="mb-4 col-md-6">
-                    <div class="p-3 border border-2 rounded border-success">
-                        <span class="badge bg-warning text-dark">•</span>
-                        <p class="m-0">
-                            Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник власника бізнесу, квартири чи салону
-                        </p>
+
+                <div class="absolute top-80 left-1/4">
+                    <img src="image/Rectangle16.png" alt="rectangle">
+                </div>
+
+                <div class="mx-auto border-t-2 max-w-7xl">
+                    <div class="flex items-center justify-between pt-10 pb-10">
+                        <h5>02</h5>
+                        <div>
+                        <h3 class="text-3xl text-left">Надійність</h3>
+                        <span>Проводимо зустрічі на об`єктах в затишних закладах Києва</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-auto border-t-2 max-w-7xl">
+                    <div class="flex items-center justify-between pt-10 pb-10">
+                        <h5 class="text-yellow-600">03</h5>
+                        <div>
+                        <h3 class="text-3xl text-left text-yellow-600">Якість</h3>
+                        <span>Проводимо зустрічі на об`єктах в затишних закладах Києва</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-auto border-t-2 max-w-7xl">
+                    <div class="flex items-center justify-between pt-10 pb-10">
+                        <h5>04</h5>
+                        <div>
+                        <h3 class="text-3xl text-left">Професіоналізм</h3>
+                        <span>Проводимо зустрічі на об`єктах в затишних закладах Києва</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-auto border-t-2 max-w-7xl">
+                    <div class="flex items-center justify-between pt-10 ">
+                        <h5>05</h5>
+                        <div>
+                        <h3 class="text-3xl text-left">Вигідність</h3>
+                        <span>Проводимо зустрічі на об`єктах в затишних закладах Києва</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
 </body>
 </html>
